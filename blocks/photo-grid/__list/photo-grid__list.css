@@ -6,13 +6,24 @@
     grid-template-columns: repeat(auto-fit, 284px);
     gap: 16px;
     justify-content: center;
-    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 1184px;
 }
 
 @media screen and (max-width: 1279px) {
     .photo-grid__list {
         grid-template-columns: repeat(auto-fit, 300px);
         gap: 14px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .photo-grid__list {
+        min-width: 0;
+        position: static;
+        transform: none;
     }
 }
 

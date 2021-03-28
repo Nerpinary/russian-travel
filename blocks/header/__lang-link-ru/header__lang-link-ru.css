@@ -1,7 +1,6 @@
-.header__lang-link {
+.header__lang-link-ru {
   font-size: 24px;
   color: white;
-  text-decoration: none;
 }
 
 .header__lang-link:hover {
