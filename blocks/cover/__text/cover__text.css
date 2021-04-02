@@ -1,4 +1,9 @@
 .cover__text {
-    position: relative;
-    z-index: 2;
+    position: absolute;
+    z-index: 1;
 }
+
+.cover__text:hover {
+    
+} 
+

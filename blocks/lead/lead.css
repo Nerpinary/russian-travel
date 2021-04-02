@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 56px 0 0;
+  margin: 56px 100px 0;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    margin: 48px 0 0;
+    margin: 48px 48px 0;
   }
 }
 

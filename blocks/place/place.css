@@ -32,6 +32,8 @@
         grid-template-columns: repeat(auto-fit, 288px);
         gap: 32px;
         margin-bottom: 50px;
+        width: 100%;
+        justify-content: center;
     }
 }
 
